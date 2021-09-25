@@ -1,1 +1,101 @@
 
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+html{
+  font-size:62.5%;
+}
+header{
+  width:160%;
+  height:100vh;
+  background:linear-gradient(90deg,rgba(25,42,86,1),rgba(43,54,64,0.2)),url(https://picsum.photos/900/1000);
+  background-size:cover;
+  }
+  nav{
+    width:30%;
+    height:100vh;
+    background: transparent;
+  }
+  .logo{
+    font-size:5rem;
+    font-weight:555;
+    color:white;
+    padding:2rem 2rem;
+    border:.5rem solid white;
+    text-align:center;
+   transform:translate(2rem ,5rem);
+   border-radius:1rem;
+   animation:fz 0.8s 2s infinite alternate ease;
+   //transition:all 0.4s ease;
+  }
+  @keyframes fz{
+    10%{box-shadow:.5rem 0rem 0.9rem 0.9rem lightpink;}
+100%{color:lightgreen;box-shadow:.8rem 0rem 1.9rem 1.9rem lightgray;}
+
+  }
+  .logo:hover{
+    background: orange;
+    color:white;
+    cursor:pointer;
+  }
+  .menu{
+    margin:35rem 5rem;
+    
+  }
+  .menu a{
+    color:white;
+    display:block;
+    font-size:3rem;
+    margin-top:5rem;
+    text-decoration:none;
+  }
+  .menu a i{
+    padding-right:2rem;
+    
+  }
+  .s-icon{
+    margin-top:55rem;
+    margin-left:3rem;
+  }
+  .s-icon i{
+    color:white;
+    font-size:5rem;
+    padding:1rem;
+  }
+ 
+  .s-icon i:nth-child(1){
+   color:blue;
+   border:1px red solid;
+  }
+  .s-icon i:nth-child(2){
+   
+ color:cyan;
+  }
+  .s-icon i:nth-child(3){
+   color:pink;
+  }
+  .s-icon i:nth-child(4){
+   color:lightgreen;
+  }
+  .s-icon i:nth-child(5){
+   color:lightskyblue;
+  }
+  .s-icon i:nth-child(6){
+   color:red;
+  }
+  
+  
+   .s-icon i:hover{
+   font-size:5.4rem;
+   }
+   .menu a:hover{
+     background:lightgreen;
+     border-radius:.5rem;
+     color:black;
+   }
+   .menu a:nth-child(1){
+     background:lightgreen;
+     color:black;
+   }
